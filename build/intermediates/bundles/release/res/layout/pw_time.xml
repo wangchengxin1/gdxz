@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/white"
+        android:gravity="center_vertical" >
+
+        <Button
+              android:layout_centerVertical="true"
+            android:id="@+id/btnCancel"
+            android:layout_width="60dp"
+            android:layout_height="34dp"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="@string/pickerview_cancel"
+            android:textColor="@drawable/wheel_timebtn" />
+
+        <TextView
+            android:id="@+id/tvTime"
+           android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:gravity="center"  />
+
+        <Button
+              android:layout_centerVertical="true"
+            android:id="@+id/btnSubmit"
+            android:layout_width="60dp"
+            android:layout_height="34dp"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="@string/pickerview_submit"
+            android:textColor="@drawable/wheel_timebtn" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#D8D3D3" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <include
+            android:id="@+id/timepicker"
+            layout="@layout/include_timepicker" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/timepicker"
+            android:layout_alignTop="@id/timepicker"
+            android:background="@drawable/bg_above_timepicker" />
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/D:/6_29workspace/TimeLib/res/layout/pw_time.xml -->

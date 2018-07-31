@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\6_29workspace\\TimeLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\include_optionspicker.xml",
+        "source": "D:\\6_29workspace\\TimeLib\\build\\intermediates\\bundles\\debug\\res\\layout\\include_optionspicker.xml"
+    },
+    {
+        "merged": "D:\\6_29workspace\\TimeLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\include_timepicker.xml",
+        "source": "D:\\6_29workspace\\TimeLib\\build\\intermediates\\bundles\\debug\\res\\layout\\include_timepicker.xml"
+    },
+    {
+        "merged": "D:\\6_29workspace\\TimeLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pw_time.xml",
+        "source": "D:\\6_29workspace\\TimeLib\\build\\intermediates\\bundles\\debug\\res\\layout\\pw_time.xml"
+    },
+    {
+        "merged": "D:\\6_29workspace\\TimeLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_main.xml",
+        "source": "D:\\6_29workspace\\TimeLib\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\6_29workspace\\TimeLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pw_options.xml",
+        "source": "D:\\6_29workspace\\TimeLib\\build\\intermediates\\bundles\\debug\\res\\layout\\pw_options.xml"
+    }
+]
